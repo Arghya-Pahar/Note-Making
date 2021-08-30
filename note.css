@@ -1,0 +1,47 @@
+.items{
+    background-color: rgb(243, 211, 106);
+    padding: 4px;
+    border-radius: 4px;
+
+}
+.item{
+    display: flex;
+
+}
+.part{
+    margin: 0px 10px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+#top{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardbody{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+h4{
+    text-align: center;
+}
+.addbtn{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 4px ;
+    margin: 0px 2px 2px;
+    color: black;
+    background-color: rgb(132, 204, 223);
+    cursor: pointer;
+}
+.addbtn:hover{
+    background-color:  blue;
+}
+#notedisplay{
+    display: block;
+}
